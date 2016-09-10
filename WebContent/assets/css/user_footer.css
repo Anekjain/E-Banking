@@ -1,0 +1,23 @@
+@icon-font-path: url(fonts/glyphicons-halflings-regular.ttf);
+
+*   FOOOTER    */
+
+
+footer
+{
+background-color: #000;
+min-width: 100%;
+color: #3D72A4;
+height: 8em;
+position: absolute;
+right: 0;
+bottom: 0;
+left: 0;    
+    
+}
+
+#footer-text
+{
+
+padding-top: 1.5em;
+}

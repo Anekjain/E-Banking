@@ -1,0 +1,63 @@
+@CHARSET "UTF-8";
+@icon-font-path: url(fonts/glyphicons-halflings-regular.ttf);
+@import 'https://fonts.googleapis.com/css?family=Ubuntu+Mono:700';
+
+html
+{
+
+font-family: 'Ubuntu Mono', monospace !important;
+}
+
+body{
+    height: 100%;
+	font-family: 'Ubuntu Mono', monospace !important;
+}
+
+h1{
+	color: #FFF;
+	margin-left: 1em;
+	font-size: 2.0em;
+}
+h1 span{
+	color: #F73737;
+}
+
+
+#table table
+ {
+	margin-right: 1em;
+	margin-left:  0.1em;
+	margin-bottom: 0.25em;
+	margin-top: 0.25em;
+	background: #FFFFF1;
+	color: #3D72A4;
+	font-size: 1.15em;}
+table #tbd
+{
+ color: #000000;
+ height: 2.0em;	
+}
+table #thd
+{
+ color: #F73737;	
+}
+ 
+footer
+{
+text-align: center;	
+background-color: #000;
+min-width: 100%;
+color: #3D72A4;
+height: 5em;
+margin-top: 2em;
+position: relative;
+right: 0;
+bottom: 0;
+left: 0;  
+    
+}
+
+#footer-text
+{
+padding-bottom: 1.5em;
+}

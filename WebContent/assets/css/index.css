@@ -1,0 +1,162 @@
+@icon-font-path: url(fonts/glyphicons-halflings-regular.ttf);
+@import 'https://fonts.googleapis.com/css?family=Ubuntu+Mono:700';
+
+html
+{
+height: 100%;
+font-family: 'Ubuntu Mono', monospace !important;
+
+}
+
+body
+{
+height: 100%;
+position: relative;
+background: #FFF;
+padding-bottom: 6rem;
+min-height: 100%;
+}
+
+
+/*     NAVGIATION BAR   */
+
+.navbar-inverse .navbar-brand
+{
+background-color: #FFF;
+border-radius: 5px;
+width: 10em;
+text-align: center;
+color: red;
+}
+
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus 
+{
+color: #FFF;
+background-color: #F00;
+}
+
+#navbar-collapse-3 li a
+{
+color: #FFF;
+}
+#navbar-collapse-3 li a:hover
+{
+color: #F00;
+}
+
+#navbar-collapse-3 #Btn-search
+{
+margin-left: 2em;
+width: 10em;    
+color: #F00;
+background-color: #FFF;    
+}
+
+#navbar-collapse-3 #Btn-search:hover
+{
+background-color: #F00;
+color: #FFF;
+border: none;
+}
+
+
+/*     CAROUSEL   */
+
+#myCarousel
+{
+margin-top: -1.4em;    
+}
+.carousel,
+.item,
+.active 
+{
+height: 100%;
+}
+
+.carousel-inner 
+{
+height: 100%;
+}
+
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
+width: 100%;
+height: 100%;
+background-position: center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+background-size: cover;
+-o-background-size: cover;
+}
+
+
+/*   CAPTIONS STYLING  */
+
+.carousel-caption #caption1 
+{
+font-family: 'Ubuntu', sans-serif ;
+font-style: oblique;
+font-weight: 700;     
+color: white;
+letter-spacing: 0.15em;    
+}
+
+.carousel-caption #caption2
+{
+font-family: 'Ubuntu', sans-serif ;
+font-style: oblique;
+font-weight: 700;     
+color: black;
+letter-spacing: 0.15em;     
+}
+
+.carousel-caption #caption3
+{
+font-family: 'Ubuntu', sans-serif ;
+font-style: oblique;
+font-weight: 700;     
+color: black;
+letter-spacing: 0.15em;    
+}
+
+/*     TRANSPRAENT BOX   */
+
+
+div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+}
+
+
+/*   FOOOTER    */
+
+
+footer
+{
+background-color: #000;
+min-width: 100%;
+color: #3D72A4;
+height: 8em;
+position: relative;
+right: 0;
+bottom: 0;
+left: 0;    
+    
+}
+
+#footer-text
+{
+
+padding-top: 1.5em;
+}
